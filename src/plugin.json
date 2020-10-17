@@ -1,0 +1,33 @@
+{
+  "type": "panel",
+  "name": "my-plugin",
+  "id": "my-plugin",
+  "info": {
+    "description": "Grafana Panel Plugin",
+    "author": {
+      "name": "Web Dev"
+    },
+    "keywords": [],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "7.0.x",
+    "plugins": []
+  }
+}
