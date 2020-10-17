@@ -1,9 +1,9 @@
 {
   "type": "panel",
-  "name": "my-plugin",
-  "id": "my-plugin",
+  "name": "giphy-images-plugin",
+  "id": "giphy-images-plugin",
   "info": {
-    "description": "Grafana Panel Plugin",
+    "description": "Grafana Panel Plugin with Giphy Images",
     "author": {
       "name": "Web Dev"
     },
