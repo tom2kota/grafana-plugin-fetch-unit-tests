@@ -1,13 +1,13 @@
 # Grafana Panel Plugin - Giphy Images 
 
-Giphy images Fetched from endpoint: https://developers.giphy.com/docs/api/endpoint/
+Giphy images Fetched from [Giphy endpoint](https://developers.giphy.com/docs/api/endpoint/)
 
 -------------------
 
 ## Prerequisites
-- Grafana 7.0
-- NodeJS 12.x
-- yarn or npm
+- Grafana 7.0 (required)
+- NodeJS 12.x (required)
+- yarn or npm (required)
 
 Copy this plugin to Directory where grafana will automatically scan and look for plugins:
 ``` plugins = data/plugins ``` 
@@ -26,6 +26,15 @@ In console run:
     npm run watch
 ```
 
-Go to web-browser [localhost](http://localhost:3000/)
+Go to web-browser [localhost:3000](http://localhost:3000/)
+
+- Create New Dashboard => Edit Panel => Visualization => Type: 'giphy' => Select Plugin => Push button: 'Apply'
+![img](docs/img/grafana-2.png)
+
+- Change Search results output => Edit Panel => Display => Select one of the range: '5, 10, 15, 20, 25, 30, 40, 50, 100'  => Push button: 'Apply'
+![img](docs/img/grafana-3.png)
+
+- Type into input field: 'Web Development' =>  => Push button: 'Search' => Enjoy the result!
+![img](docs/img/grafana-1.png)
 
 -------------------
