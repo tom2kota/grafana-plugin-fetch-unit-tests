@@ -6,7 +6,8 @@
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
-    "watch": "grafana-toolkit plugin:dev --watch"
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "jest": "jest"
   },
   "repository": "github:grafana/simple-react-panel",
   "author": "Web Dev",
@@ -16,10 +17,18 @@
     "email": "plugins@grafana.com"
   },
   "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
     "@grafana/data": "^7.0.0",
     "@grafana/toolkit": "^7.0.0",
     "@grafana/ui": "^7.0.0",
-    "emotion": "10.0.27"
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/user-event": "^7.2.1",
+    "babel-preset-expo": "^8.3.0",
+    "emotion": "10.0.27",
+    "jest": "^26.5.3",
+    "jest-dom": "^4.0.0",
+    "react-test-render": "^1.1.2"
   },
   "engines": {
     "node": ">=12 <13"

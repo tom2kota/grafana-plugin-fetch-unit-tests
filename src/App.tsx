@@ -112,6 +112,7 @@ export const App: React.FC<Props> = ({options, data, width, height}) => {
 
   return (
     <div
+      data-testid="wrapper"
       className={cx(
         styles.wrapper,
         css`
@@ -120,9 +121,14 @@ export const App: React.FC<Props> = ({options, data, width, height}) => {
         `
       )}
     >
-      <div className={styles.header}>
-        <form onSubmit={onFormSubmit}>
+      <div
+        data-testid="header"
+        className={styles.header}>
+        <form
+          data-testid="search-form"
+          onSubmit={onFormSubmit}>
           <input
+            data-testid="search-input-field"
             type="search"
             name="searchTerm"
             placeholder="Please, enter a keyword"
@@ -134,6 +140,7 @@ export const App: React.FC<Props> = ({options, data, width, height}) => {
             onChange={onInputChange}
           />
           <button
+            data-testid="search-button"
             type="submit"
             disabled={searchTerm.length < 1}
           >
@@ -145,11 +152,12 @@ export const App: React.FC<Props> = ({options, data, width, height}) => {
         </form>
       </div>
 
-      <div className={styles.grid}>
+      <div
+        data-testid="image-grid"
+        className={styles.grid}>
         {getImages()}
       </div>
     </div>)
-
 };
 
 const getStyles = stylesFactory(() => {
