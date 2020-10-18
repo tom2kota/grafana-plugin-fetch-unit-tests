@@ -34,7 +34,7 @@ Go to web-browser [localhost:3000](http://localhost:3000/)
 - Change Search results output => Edit Panel => Display => Select one of the range: '5, 10, 15, 20, 25, 30, 40, 50, 100'  => Push button: 'Apply'
 ![img](docs/img/grafana-3.png)
 
-- Type into input field: 'Web Development' =>  => Push button: 'Search' => Enjoy the result!
+- Type into input field: 'Web Development' => Push button: 'Search' => Enjoy the result!
 ![img](docs/img/grafana-1.png)
 
 -------------------
