@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {PanelProps} from '@grafana/data';
 import {SimpleOptions} from 'types';
-
 import {instance} from "./api/api";
 import {Image} from "./components/Image";
 import {stylesFactory} from '@grafana/ui';
